@@ -8,10 +8,10 @@ import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
 
 const activityLevels = [
-    { label: 'Inactive', description: 'Description for inactive' },
-    { label: 'Somewhat active', description: 'Description for somewhat active' },
-    { label: 'Active', description: 'Description for active' },
-    { label: 'Very active', description: 'Description for very active' },
+    { label: 'Inactive', description: 'Never or rarely include physical activity in your day.' },
+    { label: 'Somewhat active', description: 'Include light activity or moderate activity about two to three times a week.' },
+    { label: 'Active', description: 'Include at least 30 minutes of moderate activity most days of the week, or 20 minutes of vigorous activity at least three days a week.' },
+    { label: 'Very active', description: 'Include large amounts of moderate or vigorous activity in your day.' },
 ];
 
 export const FormQuestions = ({ setCalories }) => {
